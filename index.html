@@ -33,17 +33,10 @@
               <a class="nav-link" href="#"><span>Home</span></a>
               <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">About us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Неполноценный</font></font></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Падать</font></font></a>
-              <div class="dropdown-menu" aria-labelledby="dropdown07">
-                <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Действие</font></font></a>
-                <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Другое действие</font></font></a>
-                <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Что-то еще здесь</font></font></a>
-              </div>
-            </li>
+        <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" id="fileInput" name="file">
+    <button type="button" onclick="sendImageToServer()">Upload</button>
+  </form>
           </ul>
         </div>
 
