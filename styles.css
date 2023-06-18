@@ -1,6 +1,6 @@
 .body{
-    height: 1100px;
     color: white;
+    padding-bottom: 30px;
 background: rgb(24,22,38);
 background: linear-gradient(0deg, rgba(24,22,38,1) 0%, rgba(45,41,74,1) 16%, rgba(64,54,128,1) 25%, rgba(45,41,74,1) 34%, rgba(30,27,52,1) 72%, rgba(62,53,116,1) 83%, rgba(45,41,74,1) 92%);}
 .logo{
@@ -41,8 +41,6 @@ html {
 .text-container{
     height: 657px;
 width: 625px;
-left: 109px;
-top: 256px;
 border-radius: 30px;
 }
 .eyes {
@@ -86,58 +84,54 @@ border-radius: 30px;
 
 .bigText{
 font: Roboto Slab;
-    position: absolute;
-width: 560px;
-height: 450px;
-left: 50px;
-top: 100px;
+
 color: #fff;
 background: rgba(43, 27, 51, 0.6);
 border-radius: 30px;
 border-style: none;
 border-width: 1px;
 border-color: #fff;
+height: 360px
 }
 
 .video {
-position: absolute;
+display: block;
 width: 640px;
 height: 360px;
-left: 650px;
-top: 100px;
 border-style: none;
-
+display: flex;
 background: rgba(43, 27, 51, 0.38);
 border-radius: 30px;
+margin-top: 4.9%
 }
 
 .dot {
-  height: 120px;
-  width: 550px;
+  height: 150px;
+  width: 50%;
   background-color: #2B1B33;
   border-radius: 50%;
-  display: block;
-  margin-top: 490px;
-  margin-left: 360px;
   text-align:center;
-  position: absolute
+  margin-left:25%;
+  margin-right: 25%;
+  margin-top: 8%
 }
 
 .comments{
-    position: absolute;
-width: 558px;
-height: 450px;
-left: 356px;
-top: 607px;
+margin-left:25%;
+margin-right: 25%;
+margin-top: -9%;
+width: 50%;
+height: 400px;
+
 
 background: #2B1B33;
-border-radius: 30px;
+border-radius: 20px;
 }
 
 .com{
     font: Times New Roman;
     font-size: 20px;
-    margin: 10px 30px;
+    margin: 2% 9%;
 
 }
 
@@ -149,6 +143,18 @@ border-radius: 30px;
 }
 
 .about{
-    margin: 65px;
-    font-size: 47px
+    margin: 5%;
+    font-size: 22px
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
 }
